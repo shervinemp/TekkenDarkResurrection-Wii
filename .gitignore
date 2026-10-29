@@ -1,0 +1,75 @@
+# build output
+build/
+gen/
+*.dol
+*.elf
+*.map
+*.o
+*.d
+
+# local game/test data
+game/
+test/
+tests/__pycache__/
+__pycache__/
+*.log
+build_log*.txt
+dolphin_*.txt
+
+# reference checkouts used while porting
+_ref_tkdr/
+_ref_azazel/
+dist/
+dist-tkdr/
+
+# the debug build tree
+build-debug/
+
+# the full SD card image (1.7 GB of game data) and the packaged copy
+dist-tkdr-sd-full/
+dist-tkdr-sd.zip
+
+# FFmpeg for the intro movie: tools/build_ffmpeg.sh downloads, builds and installs here
+third_party/ffmpeg-src/
+third_party/ffmpeg-build/
+third_party/ffmpeg-ppc/
+
+# Never commit game data, generated game code, or release artefacts.
+*.iso
+*.ISO
+*.cso
+*.CSO
+*.bin
+*.prx
+*.pbp
+*.at3
+*.pmf
+*.mp4
+*.raw
+*.img
+*.dol
+*.DOL
+*.elf
+*.ELF
+*.map
+*.o
+*.a
+*.zip
+*.7z
+*.png
+*.jpg
+*.jpeg
+EBOOT.BIN
+ULUS*_EBOOT.BIN
+image.bin
+tekken_dr.iso
+a-tekken.iso
+shots-*/
+dist-*/
+build-*/
+
+# Local tooling and caches.
+.claude/
+.vscode/
+.idea/
+*.tmp

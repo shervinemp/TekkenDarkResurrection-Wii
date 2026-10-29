@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "game_id": "ULUS10139",
+  "title": "Tekken: Dark Resurrection",
+  "region": "USA",
+  "disc_version": "1.00",
+  "iso": {
+    "size": 1750237184,
+    "sha1": "8193a65dee49685db49284408c89bdb35324bc32",
+    "crc32": "3ffd7a9d"
+  },
+  "executable": {
+    "format": "ELF32-LE-MIPS",
+    "module": "tkpsp",
+    "load_address": "0x08804000",
+    "entry": "0x089F34A8",
+    "note": "The ISO's EBOOT is encrypted (~PSP). Use PPSSPP's decrypted EBOOT dump."
+  },
+  "source": "tkdr-recomp NOTES.md"
+}

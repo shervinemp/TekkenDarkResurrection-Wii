@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="0.1">
+  <name>Tekken: Dark Resurrection Wii</name>
+  <author>Tekken Wii port contributors</author>
+  <version>0.1.0</version>
+  <release_date>20261020</release_date>
+  <short_description>Native static-recompilation port of Tekken: Dark Resurrection (PSP).</short_description>
+  <long_description>Unofficial, non-commercial fan project. Experimental Wii port of the PSP Tekken: Dark Resurrection executable using the tkdr-recomp runtime. Requires your own ULUS10139 EBOOT and ISO. No game data is included. Game data may live on SD or a FAT/read-only NTFS USB stick. Credits and licences: see CREDITS.md, THIRD_PARTY.md and LICENSE in the source repository.</long_description>
+</app>

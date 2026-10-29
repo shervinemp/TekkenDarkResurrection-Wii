@@ -1,0 +1,2 @@
+# Shell scripts run under sh, which chokes on CRLF, so they stay LF in the working tree even with core.autocrlf=true.
+*.sh text eol=lf

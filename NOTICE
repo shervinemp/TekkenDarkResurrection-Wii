@@ -1,0 +1,23 @@
+Tekken: Dark Resurrection Wii
+Copyright (C) 2026 Tekken: Dark Resurrection Wii port contributors
+
+The original port code in this repository is licensed under the MIT License
+(see LICENSE and LICENSES/MIT.txt). Third-party components keep their own
+licences; see THIRD_PARTY.md, LICENSES/ and CREDITS.md.
+
+A Wii binary built from this source links vendor/libntfs (GPL-2.0-or-later),
+so the combined binary is distributed under GPL-2.0-or-later. If it includes
+FFmpeg's H.264 decoder or the ATRAC3/ATRAC3+ decoders, the LGPL-2.1-or-later
+obligations for those components also apply.
+
+No game data, executable, ISO/CSO, generated image, or recompiled game code is
+included in this repository. You must supply your own legally owned copy of
+Tekken: Dark Resurrection (PSP, USA ULUS10139).
+
+Tekken: Dark Resurrection is a trademark of Bandai Namco Entertainment Inc.
+This is an unofficial, non-commercial fan project. It is not affiliated with,
+sponsored by, or endorsed by Bandai Namco, Sony, or any other rights holder.
+Do not sell it or present it as an official product.
+
+This software is experimental and comes with absolutely no warranty, to the
+extent permitted by law. See the licence texts for the full disclaimers.

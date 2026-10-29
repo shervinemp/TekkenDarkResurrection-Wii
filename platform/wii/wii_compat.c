@@ -1,0 +1,13 @@
+/* Small libc gaps on devkitPPC/newlib. */
+#include <errno.h>
+#include <malloc.h>
+#include <stddef.h>
+
+int posix_memalign(void **memptr, size_t alignment, size_t size) {
+    if (alignment < sizeof(void *) || (alignment & (alignment - 1)) != 0)
+        return EINVAL;
+    void *p = memalign(alignment, size);
+    if (!p) return ENOMEM;
+    *memptr = p;
+    return 0;
+}
